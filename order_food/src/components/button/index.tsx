@@ -1,0 +1,45 @@
+import React from 'react';
+import {StyleProp, TextStyle, TouchableOpacity, ViewStyle} from 'react-native';
+import {CommonButtonProps} from './type';
+import {styles} from './style';
+import CommonText from '../text';
+import {globalStyle} from '../../style';
+
+const CommonButton: React.FC<CommonButtonProps> =
+    ({
+         title,
+         loading = false,
+         disabled = false,
+         variant = 'primary',
+         style,
+         ...rest
+     }) => {
+        const containerStyle: StyleProp<ViewStyle> = [
+            styles.container,
+            globalStyle.flex_row,
+            globalStyle.flex_center,
+            styles[variant],
+            disabled && styles.disabled,
+            style,
+        ];
+
+        const titleStyle: StyleProp<TextStyle> = [
+            styles.title,
+            variant === 'primary' && styles.primaryTitle,
+            variant === 'secondary' && styles.secondaryTitle,
+            variant === 'outline' && styles.outlineTitle,
+        ];
+
+        return (
+            <TouchableOpacity
+                style={containerStyle}
+                disabled={disabled || loading}
+                activeOpacity={0.7}
+                {...rest}
+            >
+                <CommonText title={title} style={titleStyle}/>
+            </TouchableOpacity>
+        );
+    };
+
+export default React.memo(CommonButton);

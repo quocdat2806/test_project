@@ -1,0 +1,117 @@
+import {images} from '../assets/images';
+import TFoodItem from '../types/foodItem.ts';
+
+export const dummyDataListFood: TFoodItem[] = [
+    {
+        id: 1,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    },
+    {
+        id: 2,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    },
+    {
+        id: 3,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    },
+    {
+        id: 4,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    },
+    {
+        id: 5,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    },
+    {
+        id: 6,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    },
+    {
+        id: 7,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    },
+    {
+        id: 8,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    },
+    {
+        id: 9,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    },
+    {
+        id: 10,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    },
+    {
+        id: 11,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    }, {
+        id: 12,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    }, {
+        id: 13,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    }, {
+        id: 14,
+        image: images.food,
+        name: 'Combo đồ ăn vặt xúc xích, thịt viên, giảm giá cuối tuần',
+        price: 250000,
+        quantity: 1,
+        totalPrice: 250000,
+    },
+];
+
+
+
